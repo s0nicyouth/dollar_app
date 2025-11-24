@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DollarApp</string>
+    <string name="main_screen_title">Exchange calculator</string>
+</resources>
