@@ -1,0 +1,1 @@
+Unit tests are added as example. Additional unit tests needed to fully cover the app

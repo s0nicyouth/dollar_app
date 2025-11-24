@@ -1,6 +1,5 @@
 package com.syouth.dollarapp.ui.widgets
 
-import android.R.attr.data
 import android.icu.text.DecimalFormatSymbols
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -31,14 +30,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardType
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ionspin.kotlin.bignum.decimal.BigDecimal
 import com.syouth.dollarapp.R
 import com.syouth.dollarapp.domain.models.Currency
 import com.syouth.dollarapp.ui.common.EditDistance
-import com.syouth.dollarapp.ui.theme.DollarAppTheme
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.distinctUntilChanged
 
